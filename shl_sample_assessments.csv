@@ -1,0 +1,16 @@
+Assessment Name,URL,Remote Testing Support,Adaptive/IRT Support,Duration (mins),Test Type,Description
+Verbal Reasoning Test,https://www.shl.com/verbal-reasoning,Yes,Yes,20,Cognitive Ability,assesses verbal reasoning and comprehension skills
+Numerical Reasoning Test,https://www.shl.com/numerical-reasoning,Yes,Yes,25,Cognitive Ability,measures numerical reasoning and data interpretation
+Situational Judgement Test - Graduate,https://www.shl.com/sjt-graduate,Yes,No,30,Behavioral,tests decision making and workplace behavior for graduates
+Personality Questionnaire (OPQ),https://www.shl.com/opq,Yes,No,25,Personality,evaluates personality traits and work style
+Coding Simulation - Python,https://www.shl.com/coding-python,Yes,Yes,40,Technical Skill,assesses Python programming skills through simulations
+Coding Simulation - Java,https://www.shl.com/coding-java,Yes,Yes,40,Technical Skill,tests Java programming skills through real-world coding tasks
+Data Analysis Test,https://www.shl.com/data-analysis,Yes,No,35,Cognitive Ability,measures data analysis and problem-solving ability
+Customer Service Simulation,https://www.shl.com/customer-service-sim,Yes,No,30,Behavioral,evaluates customer service scenario handling
+Logical Reasoning Test,https://www.shl.com/logical-reasoning,Yes,Yes,20,Cognitive Ability,tests logical reasoning and pattern recognition
+Sales Personality Profiler,https://www.shl.com/sales-personality,Yes,No,30,Personality,assesses personality traits for sales roles
+IT Skills - SQL,https://www.shl.com/sql-assessment,Yes,Yes,30,Technical Skill,evaluates SQL and database querying skills
+Collaboration and Teamwork Simulation,https://www.shl.com/teamwork-sim,Yes,No,25,Behavioral,"measures collaboration, communication and teamwork ability"
+Cognitive Ability - Graduate,https://www.shl.com/graduate-cognitive,Yes,Yes,30,Cognitive Ability,assesses cognitive ability for fresh graduates
+Full Stack Developer Simulation,https://www.shl.com/fullstack-sim,Yes,Yes,60,Technical Skill,evaluates front-end and back-end programming skills
+Business Communication Assessment,https://www.shl.com/business-comm,Yes,No,20,Communication Skill,"tests business communication, clarity, and tone"
