@@ -1,97 +1,66 @@
-This is a web application developed to help recommend SHL assessments based on a candidate's attributes. The app allows users to upload data, analyze it, and get recommendations for suitable assessments based on their characteristics.
+SHL Assessment Recommender
+This web application helps recommend SHL assessments based on a candidate's attributes. Built using Streamlit, the app allows users to upload candidate data, analyze it, and receive tailored recommendations for suitable assessments.
 
-Features
-Upload CSV: Users can upload a CSV file containing candidate data.
+🚀 Features
+📂 Upload CSV: Upload a file with candidate data (e.g., age, experience, skills, etc.)
 
-Assessment Recommendations: Based on the input data, the app suggests SHL assessments that align with the candidate’s characteristics.
+🧠 Assessment Recommendations: Get SHL assessment suggestions based on candidate characteristics
 
-Visualization: It provides a clear view of the data and recommendations using Streamlit's interactive UI.
+📊 Visualizations: View data insights using interactive charts and tables
 
-Technologies Used
-Streamlit: A framework for building interactive web apps.
+🛠 Technologies Used
+Streamlit – for building the web UI
 
-pandas: Data analysis and manipulation library.
+pandas – for data handling
 
-scikit-learn: Machine learning library for building models (used for making predictions).
+scikit-learn – for prediction logic
 
-matplotlib: Library for creating static, animated, and interactive visualizations.
+matplotlib – for visualizations
 
-Prerequisites
-To run this project locally, you need the following:
-
+📦 Prerequisites
 Python 3.x
 
-Git (for version control)
+Git (optional, for cloning)
 
-Streamlit
+Virtual environment tool (optional but recommended)
 
-Installing Dependencies
-Clone the repository:
+🔧 Installation
+# 1. Clone the repository
+git clone https://github.com/Chetanpalariya/shl-assessment-recommender.git
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/shl-assessment-recommender.git
-Navigate to the project directory:
-
-bash
-Copy
-Edit
+# 2. Navigate into the project directory
 cd shl-assessment-recommender
-Create a virtual environment (optional but recommended):
 
-bash
-Copy
-Edit
+# 3. (Optional) Create and activate a virtual environment
 python -m venv env
-source env/bin/activate   # On Windows: env\Scripts\activate
-Install the required dependencies:
+source env/bin/activate  # On Windows: env\Scripts\activate
 
-bash
-Copy
-Edit
+# 4. Install dependencies
 pip install -r requirements.txt
-requirements.txt
-The following packages will be installed:
-
-streamlit
-
-pandas
-
-scikit-learn
-
-matplotlib
-
-Usage
-To run the app locally:
-
-Navigate to the project directory if you are not there:
-
-bash
-Copy
-Edit
-cd shl-assessment-recommender
-Run the Streamlit app:
-
-bash
-Copy
-Edit
+▶️ Usage
 streamlit run app.py
-The app will open in your browser. You can upload a CSV file and receive recommendations based on the input data.
+Once running, the app will open in your browser. You can upload a CSV file and receive assessment recommendations based on candidate data.
 
-Deployment
-You can deploy the app using Streamlit Cloud:
+🌐 Deployment
+To deploy on Streamlit Cloud:
 
-Push your code to GitHub (this repository).
+Push your code to GitHub
 
-Go to Streamlit Cloud.
+Visit Streamlit Cloud
 
-Click on "New App", choose this repository, and deploy.
+Click "New App"
 
-Once deployed, you will receive a link to access the app online.
+Select your GitHub repo and set app.py as the main file
 
-Example Dataset
-An example dataset shl_sample_assessments.csv is included in the repository. It contains sample candidate data with columns such as:
+Click Deploy
+
+That's it! You'll get a shareable link to your live app.
+
+📁 Example Dataset
+The repo includes a sample dataset:
+shl_sample_assessments.csv
+
+Example columns:
 
 Candidate Name
 
@@ -103,10 +72,17 @@ Skills
 
 Current Role
 
-This dataset can be replaced with real data when deploying the app.
+You can replace this file with your real candidate data.
 
-Contributing
-Feel free to fork the repository, create pull requests, or open issues if you have any suggestions or improvements.
+🤝 Contributing
+Contributions are welcome!
+Feel free to:
 
-License
+Fork this repo
+
+Submit a pull request
+
+Open issues for suggestions or bugs
+
+📄 License
 This project is licensed under the MIT License.
